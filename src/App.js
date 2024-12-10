@@ -35,25 +35,17 @@ const App = () => {
       <h1>{question}</h1>
       {showHowMuch ? (
         <>
-          <h2>How much do you love him? ❤</h2>
-          <input
-            type="range"
-            min="0"
-            max="100"
-            value={loveDegree}
-            onChange={handleSliderChange}
-            className="slider"
-          />
-          <p>Love Degree: {loveDegree}%</p>
+          <h2>U hate me ? :/ </h2>
+         
         </>
       ) : (
         <>
-          <button onClick={handleYesClick}>Yes</button>
+          <button onClick={handleYesClick}>No</button>
           <button
             style={{ position: "absolute", top: noButtonPosition.top, left: noButtonPosition.left }}
             onClick={handleNoClick}
           >
-            No
+            Yes
           </button>
         </>
       )}
