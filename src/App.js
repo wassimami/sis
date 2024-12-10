@@ -15,7 +15,7 @@ const App = () => {
       setQuestion("You should try 'No' first!");
     } else if (clickedNo) {
       setShowHowMuch(true);
-      setQuestion("How much do you love him?");
+      setQuestion("whyyyyu?");
     }
   };
 
